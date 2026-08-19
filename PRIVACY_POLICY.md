@@ -1,6 +1,6 @@
 # Privacy Policy for Coral Villa
 
-**Last Updated:** August 15, 2026
+**Last Updated:** August 18, 2026
 
 Welcome to **Coral Villa** ("we," "our," or "us"). We respect your privacy and are committed to protecting any information generated through your play of Coral Villa (the "Game"). This Privacy Policy explains how data is collected, used, and safeguarded when you play the Game on web browsers, mobile devices, or desktop platforms.
 
@@ -15,9 +15,14 @@ Coral Villa is designed with a privacy-first, local-storage model. Your game pro
 We may collect non-personally identifiable technical or gameplay metrics (such as level completion rates, game crash reports, or performance performance statistics) to help us debug issues and improve game balance. This data is aggregated and anonymous.
 
 ### C. Payment & In-App Purchase Information
-If you choose to make in-game purchases or support development through third-party platforms (such as Itch.io or Stripe), your transaction is processed directly by those payment providers. **Coral Villa does not collect, receive, or store your credit card numbers, banking details, or billing addresses.** Please review the privacy policies of the payment processor used for your transaction:
-- [Itch.io Privacy Policy](https://itch.io/docs/legal/privacy)
-- [Stripe Privacy Policy](https://stripe.com/privacy)
+If you choose to make in-game purchases, your transaction is processed directly by the platform's payment provider:
+
+- **On Reddit**, purchases are made with Reddit Gold through Reddit's payment system. The transaction is handled entirely by Reddit, subject to [Reddit's privacy policy](https://www.redditinc.com/policies/privacy-policy) and [Reddit's User Agreement](https://www.redditinc.com/policies/user-agreement). Coral Villa only learns which product you purchased (to deliver it to your game) — it never sees your payment method.
+- **On other platforms** (such as Itch.io or Stripe Checkout), the transaction is processed by those providers:
+  - [Itch.io Privacy Policy](https://itch.io/docs/legal/privacy)
+  - [Stripe Privacy Policy](https://stripe.com/privacy)
+
+**Coral Villa does not collect, receive, or store your credit card numbers, banking details, or billing addresses.**
 
 ---
 
@@ -35,6 +40,11 @@ Any non-personal or local data processed by the Game is used strictly for:
 We do **not** sell, trade, rent, or monetize your personal data. 
 
 The Game may run on third-party hosting platforms (such as Itch.io, GitHub Pages, or Vercel). These platforms may collect standard web server logs (such as IP address, browser type, and access times) in accordance with their respective privacy policies.
+
+### D. Reddit Leaderboard Data
+When you play Coral Villa **on Reddit**, the in-game global leaderboard stores a small amount of data on Reddit's servers (in Reddit's managed Redis): your Reddit user ID, your chosen display name (which defaults to your Reddit username), your best score, level, and win streak. This data is used only to power the in-game leaderboard and is not shared with any third party. Leaderboard entries are removed when a Reddit account is deleted, and entries with no activity expire automatically after 30 days.
+
+On non-Reddit platforms the leaderboard is stored only on your own device (see Section 1.A) and is never uploaded.
 
 ---
 
