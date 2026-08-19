@@ -11,6 +11,8 @@ Welcome to **Coral Villa** ("we," "our," or "us"). We respect your privacy and a
 ### A. Local Save Data
 Coral Villa is designed with a privacy-first, local-storage model. Your game progress, level completions, unlocked villa structures, high scores, coins, pearls, and game settings are saved locally on your device (using Browser LocalStorage, IndexedDB, or local save files).
 
+**On Reddit**, your game save is additionally mirrored to Reddit's servers (Reddit's managed Redis) so your progress and purchased items follow your Reddit account across devices and survive a cleared browser cache. The server copy is refreshed with every important game event (level completion, purchase, villa build, pass claim) and is deleted when you reset all progress, when the server copy has been inactive for 180 days, or when you request data removal.
+
 ### B. Analytical & Gameplay Data
 We may collect non-personally identifiable technical or gameplay metrics (such as level completion rates, game crash reports, or performance performance statistics) to help us debug issues and improve game balance. This data is aggregated and anonymous.
 
@@ -59,6 +61,7 @@ Coral Villa is a family-friendly game. We do not knowingly collect or solicit pe
 Since your save game data is stored locally on your device, you have complete control over your data at all times:
 - You can clear your game progress by clearing your browser cache/cookies for the site or resetting your local save in the in-game settings menu.
 - Deleting the Game or clearing local site data permanently removes all local progress from your device.
+- **On Reddit**, the in-game "Reset all progress" option also deletes your cloud save from Reddit's servers, and you can request data removal at any time by contacting us (Section 7). Server saves with no activity are automatically deleted after 180 days.
 
 ---
 
