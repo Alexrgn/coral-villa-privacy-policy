@@ -9,7 +9,8 @@ View the full policy below or in [PRIVACY_POLICY.md](PRIVACY_POLICY.md).
 ## Summary
 
 - **Local Storage First**: Coral Villa saves your game progress, settings, and high scores directly on your local device.
+- **Optional Cloud Accounts**: Sign-in is optional (Google OAuth or email/password). If you sign in, your save is synced across devices via our cloud provider.
 - **No Unnecessary Data Collection**: We do not collect or store personal identifiable information (PII) like your real name, address, or phone number.
-- **Secure Transactions**: Any payments are processed by the platform's payment provider (Reddit Gold on Reddit; Itch.io or Stripe elsewhere). We never see or store your raw payment details.
-- **Reddit Leaderboard**: On Reddit, only your leaderboard entry (Reddit user ID, display name, score) is stored on Reddit's servers to power the in-game leaderboard, and it's removed on account deletion.
+- **Secure Transactions**: Any payments are processed by the platform's payment provider (Reddit Gold on Reddit; Google Play Billing on Android; Itch.io or Stripe elsewhere). Tide Pass Premium is a one-time 14-day purchase and never auto-renews. We never see or store your raw payment details.
+- **Leaderboards**: On Reddit, only your leaderboard entry is stored on Reddit's servers and removed on account deletion. On other platforms, leaderboard entries are public gameplay data stored with your account.
 - **Contact**: For privacy inquiries or support, contact us at **PluvianDev@outlook.com**.
