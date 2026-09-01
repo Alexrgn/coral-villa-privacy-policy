@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Coral Villa</title>
+  <meta name="description" content="Privacy Policy for Coral Villa, the coastal match-3 puzzle game." />
+  <style>
+    :root {
+      --ink: #0a2533;
+      --teal: #175266;
+      --teal-bright: #217185;
+      --cream: #f3e5c5;
+      --gold: #fce188;
+      --gold-ink: #7a5214;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      line-height: 1.65;
+      color: #12333f;
+      background: radial-gradient(120% 100% at 50% 0%, #11505f 0%, #0a3a48 50%, #051e26 100%);
+      min-height: 100vh;
+      padding: 32px 16px;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--cream);
+      border: 6px solid var(--teal);
+      border-radius: 20px;
+      padding: 40px 44px;
+      box-shadow: 0 18px 50px rgba(0, 10, 16, 0.5);
+    }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 30px;
+      color: var(--teal);
+    }
+    .sub { margin: 0 0 26px; font-size: 13px; color: #5a7a86; }
+    h2 {
+      margin: 26px 0 8px;
+      font-size: 18px;
+      color: var(--teal);
+      border-bottom: 2px solid rgba(23, 82, 102, 0.25);
+      padding-bottom: 4px;
+    }
+    p { margin: 8px 0; }
+    ul { margin: 8px 0 8px 20px; padding: 0; }
+    li { margin: 4px 0; }
+    a { color: var(--teal-bright); }
+    .notice {
+      background: var(--gold);
+      color: var(--gold-ink);
+      border-radius: 10px;
+      padding: 12px 16px;
+      margin: 18px 0;
+      font-size: 14px;
+      border: 1px solid rgba(122, 82, 20, 0.35);
+    }
+    footer {
+      margin-top: 30px;
+      padding-top: 14px;
+      border-top: 1px dashed rgba(0, 82, 102, 0.4);
+      font-size: 13px;
+      color: #55747d;
+    }
+    @media (max-width: 560px) {
+      main { padding: 26px 22px; }
+      h1 { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Coral Villa — Privacy Policy</h1>
+    <p class="sub">Last updated: September 1, 2026</p>
+
+    <p>Welcome to <strong>Coral Villa</strong> ("we," "our," or "us"). We respect your privacy and are committed to protecting any information generated through your play of Coral Villa (the "Game"). This Privacy Policy explains how data is collected, used, and safeguarded when you play the Game on web browsers, Android devices, desktop platforms, or Reddit.</p>
+
+    <h2>1. Information We Collect</h2>
+
+    <h2 style="font-size:16px;">A. Local Save Data</h2>
+    <p>Coral Villa is designed with a privacy-first, local-storage model. Your game progress, level completions, unlocked villa structures, high scores, coins, pearls, premium pass status, and game settings are saved locally on your device (using Browser LocalStorage, IndexedDB, or local save files). Coral Villa also generates a random installation identifier that is stored on your device.</p>
+    <p><strong>On Reddit</strong>, your game save is additionally mirrored to Reddit's servers (Reddit's managed Redis) so your progress and purchased items follow your Reddit account across devices and survive a cleared browser cache. The server copy is refreshed with every important game event (level completion, purchase, villa build, pass claim) and is deleted when you reset all progress, when the server copy has been inactive for 180 days, or when you request data removal.</p>
+
+    <h2 style="font-size:16px;">B. Optional Account &amp; Cloud-Save Data</h2>
+    <p>Signing in is optional. If you choose to sign in with Google OAuth or email/password (via Supabase Authentication), we use the account to:</p>
+    <ul>
+      <li>authenticate you,</li>
+      <li>store a sanitized copy of your game save,</li>
+      <li>keep your progress in sync across devices, and</li>
+      <li>associate cloud data with your account.</li>
+    </ul>
+    <p>We never receive your Google password. Google sign-in is handled by Google OAuth; email/password sign-in is handled by Supabase Auth.</p>
+
+    <h2 style="font-size:16px;">C. Analytical &amp; Gameplay Data</h2>
+    <p>Anonymous gameplay analytics is opt-in and disabled by default. When enabled, we may collect coarse, non-personally identifiable events such as app start, level start, level win/loss, purchase, and lifecycle events to debug issues and improve game balance. Analytics does not include passwords, payment credentials, save contents, or precise location data. You can disable analytics at any time in the in-game Settings.</p>
+
+    <h2 style="font-size:16px;">D. Payment &amp; In-App Purchase Information</h2>
+    <p>If you choose to make in-game purchases, your transaction is processed directly by the platform's payment provider:</p>
+    <ul>
+      <li><strong>On Android (Google Play)</strong>, in-app purchases (coins, hearts, extra lives, boosters, and the Tide Pass Premium reward track) are purchased and fulfilled through Google Play Billing: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play privacy policy</a></li>
+      <li><strong>On Reddit</strong>, purchases are made with Reddit Gold through Reddit's payment system, subject to <a href="https://www.redditinc.com/policies/privacy-policy" target="_blank" rel="noopener">Reddit's privacy policy</a>. Coral Villa only learns which product you purchased — it never sees your payment method.</li>
+      <li><strong>On other platforms</strong> (such as Itch.io or via Stripe Checkout), the transaction is processed by those providers: <a href="https://itch.io/docs/legal/privacy" target="_blank" rel="noopener">Itch.io Privacy Policy</a>, <a href="https://stripe.com/privacy" target="_blank" rel="noopener">Stripe Privacy Policy</a></li>
+    </ul>
+    <p>The store records only the item, price, and a transaction identifier needed to fulfill your order. <strong>Coral Villa does not collect, receive, or store your credit card numbers, banking details, or billing addresses.</strong></p>
+
+    <div class="notice">
+      <b>Tide Pass Premium (one-time, 14-day):</b> The Tide Pass Premium reward track is a one-time in-app purchase that unlocks the premium reward track for 14 days from the time of purchase. It does not auto-renew and there are no recurring charges. Buying it again simply extends the premium window. Refunds follow the applicable store's refund policy. Already-owned non-consumable purchases can be restored from the store receipt after reinstalling the app or signing in on a new device.
+    </div>
+
+    <h2>2. How We Use Information</h2>
+    <p>Any non-personal or local data processed by the Game is used strictly for:</p>
+    <ul>
+      <li>Maintaining and restoring your game progress.</li>
+      <li>Synchronizing progress across your devices (when you are signed in).</li>
+      <li>Optimizing game performance, balance, and user experience.</li>
+      <li>Fixing bugs and preventing technical glitches.</li>
+    </ul>
+    <p>We do <strong>not</strong> sell, trade, rent, or monetize your personal data.</p>
+
+    <h2>3. Data Sharing &amp; Third-Party Services</h2>
+    <p>The Game may run on third-party hosting platforms (such as Itch.io, GitHub Pages, Google Play, or Vercel). These platforms may collect standard web server logs (such as IP address, browser type, and access times) in accordance with their respective privacy policies.</p>
+    <p><strong>Leaderboard Data:</strong> On Reddit, the in-game global leaderboard stores a small amount of data on Reddit's servers: your Reddit user ID, your chosen display name (which defaults to your Reddit username), your best score, level, and win streak. On other platforms, when you are signed in, the in-game leaderboard stores a player-selected nickname, scores, level information, win streak, avatar seed, and timestamps on our hosting provider's servers (Supabase), associated with your account. Leaderboard entries are public gameplay data, so please do not enter personal information into a nickname. You may play without participating in the online leaderboard. Leaderboard entries are removed when an account is deleted, and entries with no activity expire automatically.</p>
+
+    <h2>4. Children's Privacy (COPPA Compliance)</h2>
+    <p>Coral Villa is a family-friendly game. We do not knowingly collect or solicit personal information from children under the age of 13 (or under 16 in certain jurisdictions). If you believe a child has provided us with personal information, please contact us so we can promptly delete it.</p>
+
+    <h2>5. Data Control &amp; Deletion</h2>
+    <p>Your save game data is stored locally on your device, so you have complete control over your data at all times:</p>
+    <ul>
+      <li>Clear your game progress by clearing your browser cache/cookies for the site or by resetting your local save in the in-game settings menu.</li>
+      <li>Deleting the Game or clearing local site data permanently removes all local progress from your device.</li>
+      <li><strong>On Reddit</strong>, the in-game "Reset all progress" option also deletes your cloud save from Reddit's servers, and you can request data removal at any time by contacting us (Section 7). Server saves with no activity are automatically deleted after 180 days.</li>
+      <li><strong>When signed in to a cloud account</strong>, you can delete your account from the in-game settings, which removes your cloud save and leaderboard entries from our servers. Cloud-save access is restricted to your account, and you can also request account deletion at any time by contacting us (Section 7).</li>
+    </ul>
+
+    <h2>6. Retention &amp; Security</h2>
+    <p>Cloud data is retained while your account exists or until deletion is processed. Row-level security limits cloud-save access to the owning account; leaderboard reads are public, while leaderboard writes are restricted to the matching account identity. Data in transit is protected using industry-standard encryption.</p>
+
+    <h2>7. Updates to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in our practices or game features. Any updates will be published at this URL with a revised "Last Updated" date.</p>
+
+    <h2>8. Contact Us</h2>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your data privacy, please contact us at:</p>
+    <ul>
+      <li><b>Email:</b> <a href="mailto:PluvianDev@outlook.com">PluvianDev@outlook.com</a></li>
+    </ul>
+
+    <footer>
+      © 2026 Coral Villa. All rights reserved. · <a href="https://github.com/Alexrgn/coral-villa-terms" target="_blank" rel="noopener">Terms of Service</a>
+    </footer>
+  </main>
+</body>
+</html>

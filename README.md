@@ -2,7 +2,7 @@
 
 Official Privacy Policy for **Coral Villa**, a match-3 puzzle and island restoration game.
 
-View the full policy below or in [PRIVACY_POLICY.md](PRIVACY_POLICY.md).
+View the hosted policy at <https://alexrgn.github.io/coral-villa-privacy-policy/>, the source in [PRIVACY_POLICY.md](PRIVACY_POLICY.md), or below.
 
 ---
 
